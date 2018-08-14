@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/final_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/user_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="300dp"
+        android:layout_weight="0"
+        android:paddingBottom="160dp"
+        android:text="Your Postal Score was: "
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/final_quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="40dp"
+        android:background="#ff00ff00"
+        android:text="Go Back to Home"
+        android:textColor="#FFF"/>
+
+
+</LinearLayout>
